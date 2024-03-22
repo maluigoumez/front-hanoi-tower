@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  color: darkslategrey;
+  padding: 8px;
+  font-size: 24px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.controls input[type="number"] {
+  border-radius: 8px; /* Adjust the value as needed */
+  padding: 8px;
+  margin-right: 10px; /* Add some spacing between input and button */
+  border: 1px solid #ccc; /* Add border for better visibility */
+}
+
+.controls button {
+  border-radius: 8px; /* Adjust the value as needed */
+  padding: 8px 16px;
+  background-color: #0d6a78; /* Example color */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3; /* Example color */
+}
