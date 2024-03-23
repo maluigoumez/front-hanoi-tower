@@ -23,7 +23,7 @@ class App extends Component {
   };
 
   fetchMoves = () => {
-    fetch(`http://localhost:3000/testApi?numDisks=${this.state.numDisks}`)
+    fetch(`http://localhost:9000/testApi?numDisks=${this.state.numDisks}`)
       .then((res) => {
         console.log("Response status:", res.status);
         console.log("Response headers:", res.headers);
